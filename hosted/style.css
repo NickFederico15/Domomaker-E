@@ -90,6 +90,24 @@ nav:nth-child(1) {
     background-color: #338acc;
 }
 
+.makeDomoDelete {
+    transition: background-color 0.4s ease;
+    width: 100px;
+    background-color: #55acee;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+}
+
+.makeDomoDelete:link, .makeDomoDelete:visited, .makeDomoDelete:hover, .makeDomoDelete:active {
+    color: white;
+}
+
+.makeDomoDelete:hover {
+    transition: background-color 0.4s ease;
+    background-color: #338acc;
+}
+
 .mainForm {
     height: 300px;
     width: 350px;
@@ -246,7 +264,7 @@ h3.domoName {
 
 h3.domoAge {
     float:right;
-    text-align: left;
+    text-align: center;
     width: 100px;
     font-weight: bold;
     padding-right: 40px;
@@ -255,11 +273,16 @@ h3.domoAge {
 
 h3.domoStrength {
     float: left;
-    text-align: left;
+    text-align: center;
     width: 100px;
     font-weight: bold;
     padding-right: 45px;
     font-size: 1.5em;
+}
+
+#deleteDomo {
+    position: absolute;
+    margin-top: 80px;
 }
 
 .domo:first-child {
